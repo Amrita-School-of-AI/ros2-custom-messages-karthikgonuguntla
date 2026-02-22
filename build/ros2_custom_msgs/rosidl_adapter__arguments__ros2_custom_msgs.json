@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_custom_msgs",
+  "non_idl_tuples": [
+    "/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla:msg/RobotStatus.msg"
+  ]
+}

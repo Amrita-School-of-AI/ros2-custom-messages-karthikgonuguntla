@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (ros2_custom_msgs) JobQueued: {'identifier': 'ros2_custom_msgs', 'dependencies': OrderedDict()}
+[0.000386] (ros2_custom_msgs) JobStarted: {'identifier': 'ros2_custom_msgs'}
+[0.009577] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'cmake'}
+[0.010194] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla', '-DCMAKE_INSTALL_PREFIX=/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/install/ros2_custom_msgs'], 'cwd': '/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'gonuguntla-sai-karthik', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gonuguntla-sai-karthik', 'OLDPWD': '/home/gonuguntla-sai-karthik/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2552', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gonuguntla-sai-karthik', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gonuguntla-sai-karthik', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Sai-karthik-Inspiron-14-5440:@/tmp/.ICE-unix/2521,unix/Sai-karthik-Inspiron-14-5440:/tmp/.ICE-unix/2521', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b22f18c_73f6_4013_b34c_99d09a1c3267', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I5Y7K3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.100036] (-) TimerEvent: {}
+[0.192859] (ros2_custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200223] (-) TimerEvent: {}
+[0.300651] (-) TimerEvent: {}
+[0.323715] (ros2_custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.353481] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400825] (-) TimerEvent: {}
+[0.487230] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.497127] (ros2_custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.498810] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.499389] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500994] (-) TimerEvent: {}
+[0.515964] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601179] (-) TimerEvent: {}
+[0.652259] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.666044] (ros2_custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.666471] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.667151] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.677629] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701269] (-) TimerEvent: {}
+[0.801601] (-) TimerEvent: {}
+[0.822965] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901926] (-) TimerEvent: {}
+[0.931833] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.975746] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.989027] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.002047] (-) TimerEvent: {}
+[1.004443] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.029070] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102217] (-) TimerEvent: {}
+[1.104093] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.107356] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202403] (-) TimerEvent: {}
+[1.218445] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.252395] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.278086] (ros2_custom_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302624] (-) TimerEvent: {}
+[1.356137] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.370474] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.402915] (-) TimerEvent: {}
+[1.503143] (-) TimerEvent: {}
+[1.603376] (-) TimerEvent: {}
+[1.643742] (ros2_custom_msgs) StderrLine: {'line': b"Error parsing '/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/package.xml':\n"}
+[1.703517] (-) TimerEvent: {}
+[1.803901] (-) TimerEvent: {}
+[1.904291] (-) TimerEvent: {}
+[2.004559] (-) TimerEvent: {}
+[2.104815] (-) TimerEvent: {}
+[2.205138] (-) TimerEvent: {}
+[2.305435] (-) TimerEvent: {}
+[2.405833] (-) TimerEvent: {}
+[2.506112] (-) TimerEvent: {}
+[2.606411] (-) TimerEvent: {}
+[2.706726] (-) TimerEvent: {}
+[2.807036] (-) TimerEvent: {}
+[2.907238] (-) TimerEvent: {}
+[3.007496] (-) TimerEvent: {}
+[3.072987] (ros2_custom_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.073204] (ros2_custom_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[3.073341] (ros2_custom_msgs) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[3.073395] (ros2_custom_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[3.073433] (ros2_custom_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString\n'}
+[3.073594] (ros2_custom_msgs) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[3.073749] (ros2_custom_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[3.073853] (ros2_custom_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[3.073963] (ros2_custom_msgs) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[3.074066] (ros2_custom_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[3.074180] (ros2_custom_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[3.074277] (ros2_custom_msgs) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[3.074379] (ros2_custom_msgs) StderrLine: {'line': b'xml.parsers.expat.ExpatError: not well-formed (invalid token): line 3, column 16\n'}
+[3.074481] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[3.074582] (ros2_custom_msgs) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[3.074684] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[3.074785] (ros2_custom_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.074884] (ros2_custom_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[3.075160] (ros2_custom_msgs) StderrLine: {'line': b'    main()\n'}
+[3.075289] (ros2_custom_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[3.075400] (ros2_custom_msgs) StderrLine: {'line': b'    raise e\n'}
+[3.075502] (ros2_custom_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.075605] (ros2_custom_msgs) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.075703] (ros2_custom_msgs) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[3.075803] (ros2_custom_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[3.075902] (ros2_custom_msgs) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[3.076026] (ros2_custom_msgs) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/package.xml':\n"}
+[3.076142] (ros2_custom_msgs) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[3.076243] (ros2_custom_msgs) StderrLine: {'line': b'not well-formed (invalid token): line 3, column 16\n'}
+[3.104770] (ros2_custom_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.104979] (ros2_custom_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.105084] (ros2_custom_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.105183] (ros2_custom_msgs) StderrLine: {'line': b'  /home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/package.xml\n'}
+[3.105279] (ros2_custom_msgs) StderrLine: {'line': b'  /home/gonuguntla-sai-karthik/ros2_ws/src/ros2-custom-messages-karthikgonuguntla/build/ros2_custom_msgs/ament_cmake_core/package.cmake)\n'}
+[3.105403] (ros2_custom_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[3.105496] (ros2_custom_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.105585] (ros2_custom_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.105675] (ros2_custom_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[3.105777] (ros2_custom_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.105867] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[3.105971] (ros2_custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.106063] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.107606] (-) TimerEvent: {}
+[3.114311] (ros2_custom_msgs) CommandEnded: {'returncode': 1}
+[3.115096] (ros2_custom_msgs) JobEnded: {'identifier': 'ros2_custom_msgs', 'rc': 1}
+[3.125521] (-) EventReactorShutdown: {}
